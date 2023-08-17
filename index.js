@@ -108,6 +108,9 @@ app.put("/", async (req, res) => {
     }
 })
 
+app.get("/vercel", async (req, res) => {
+    res.send({ message: 'server running fineon vercel' })
+})
 
 
 app.get('/', async (req, res, next) => {
