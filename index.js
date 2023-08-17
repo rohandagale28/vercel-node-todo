@@ -3,7 +3,7 @@ const express = require('express')
 const app = express()
 const cors = require('cors')
 app.use(cors({
-    origin: "https://glittery-cucurucho-bd93f8.netlify.app/",
+    origin: "https://glittery-cucurucho-bd93f8.netlify.app",
     method: ["GET", "PUT", "DELETE", "POST"]
 }))
 
