@@ -22,7 +22,7 @@
                 },
                 {
                     "key": "Access-Control-Allow-Origin",
-                    "value": "https://glittery-cucurucho-bd93f8.netlify.app/"
+                    "value": "*"
                 },
                 {
                     "key": "Access-Control-Allow-Methods",
